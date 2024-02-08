@@ -1,0 +1,20 @@
+### Send POST request with json body
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "firstname": "Anan",
+  "lastname": "ami",
+  "email": "emci:@gmail.com",
+  "password": "gotten"
+}
+
+### Send POST request with body as parameters
+POST http://localhost:8080/api/v1/auth/authenticate
+Content-Type: application/json
+
+{
+  "email": "emci:@gmail.com",
+  "password": "gotten"
+}
+
